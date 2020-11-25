@@ -145,6 +145,8 @@ function updateSelectedServer(serv){
     ConfigManager.setSelectedServer(serv != null ? serv.getID() : null)
     ConfigManager.save()
     server_selection_button.innerHTML = '\u2022 ' + (serv != null ? serv.getName() : 'No Server Selected')
+    document.body.style.backgroundImage = `url('` + serv.getBackground() +  `')`;
+    document.getElementById("image_seal").src = serv.getIcon();
     if(getCurrentView() === VIEWS.settings){
         animateModsTabRefresh()
     }
@@ -1072,7 +1074,8 @@ function displayArticle(articleObject, index){
     newsArticleTitle.innerHTML = articleObject.title
     newsArticleTitle.href = articleObject.link
     newsArticleAuthor.innerHTML = 'by ' + articleObject.author
-    newsArticleDate.innerHTML = articleObject.date
+    const newLocal = articleObject.date;
+    newsArticleDate.innerHTML = new Date(Date.parse(newLocal)).toLocaleDateString('fr-FR', {});
     newsArticleComments.innerHTML = articleObject.comments
     newsArticleComments.href = articleObject.commentsLink
     newsArticleContentScrollable.innerHTML = '<div id="newsArticleContentWrapper"><div class="newsArticleSpacerTop"></div>' + articleObject.content + '<div class="newsArticleSpacerBot"></div></div>'

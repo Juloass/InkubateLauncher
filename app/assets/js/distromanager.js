@@ -369,6 +369,13 @@ class Server {
     }
 
     /**
+     * @returns {string} The URL of the server's background.
+     */
+    getBackground(){
+        return this.background;
+    }
+
+    /**
      * @returns {string} The version of the server configuration.
      */
     getVersion(){
@@ -537,8 +544,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'http://vytalic.fr/project-u/launcher/distribution.json'
-        //const distroURL = 'https://gist.githubusercontent.com/dscalzi/53b1ba7a11d26a5c353f9d5ae484b71b/raw/'
+        const distroURL = 'http://vytalic.fr/vytalic-launcher/distribution.json'
         const opts = {
             url: distroURL,
             timeout: 2500

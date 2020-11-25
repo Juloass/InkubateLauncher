@@ -1,13 +1,13 @@
 {
-  "name": "projectulauncher",
+  "name": "vytaliclauncher",
   "version": "1.8.0",
-  "productName": "Project U Launcher",
-  "description": "Modded Minecraft Launcher for Porject U",
+  "productName": "Vytalic Launcher",
+  "description": "Omni-server launcher for Vytalic Team.",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/Juloass/Project-U-Launcher",
+  "homepage": "https://github.com/Juloass/Vytalic-Launcher",
   "bugs": {
-    "url": "https://github.com/Juloass/Project-U-Launcher/issues"
+    "url": "https://github.com/Juloass/Vytalic-Launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Juloass/Project-U-Launcher.git"
+    "url": "git+https://github.com/Juloass/Vytalic-Launcher.git"
   }
 }
