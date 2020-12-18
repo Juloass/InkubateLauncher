@@ -544,7 +544,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'http://vytalic.fr/vytalic-launcher/distribution.json'
+        const distroURL = 'http://vytalic.fr/vytalic-launcher/distribution-prod.json'
         const opts = {
             url: distroURL,
             timeout: 2500

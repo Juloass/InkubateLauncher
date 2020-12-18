@@ -7,6 +7,9 @@ const crypto                  = require('crypto')
 const {URL}                   = require('url')
 
 // Internal Requirements
+const DiscordWrapper          = require('./assets/js/discordwrapper')
+const Mojang                  = require('./assets/js/mojang')
+const ProcessBuilder          = require('./assets/js/processbuilder')
 const ServerStatus            = require('./assets/js/serverstatus')
 
 // Launch Elements
