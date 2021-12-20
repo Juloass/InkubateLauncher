@@ -371,6 +371,13 @@ class Server {
     }
 
     /**
+     * @returns {string} The URL of the server's background.
+     */
+    getBackground(){
+        return this.background;
+    }
+
+    /**
      * @returns {string} The version of the server configuration.
      */
     getVersion(){
