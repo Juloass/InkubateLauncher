@@ -1,6 +1,6 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="modrealms logo"></p>
 
-<h1 align="center">ModRealms Launcher</h1>
+<h1 align="center">Inkubate Launcher</h1>
 
 <em><h5 align="center"><a href="https://github.com/dscalzi/HeliosLauncher">Modified from HeliosLauncher</a></h5></em>
 
@@ -12,9 +12,9 @@
 
 You can download from [GitHub Releases](https://github.com/ModRealms-Network/ModRealmsLauncher/releases)
 
-## Development (ModRealms fork)
+## Development (Inkubate fork)
 
-All ModRealms-specific changes (UI, assets, default configuration, etc...) will be in the master branch.
+All Inkubate-specific (and ModRealms) changes (UI, assets, default configuration, etc...) will be in the master branch.
 
 A development branch __mr-features__ will be used to work on new additions to the core mechanics of the original project (as below) and will keep up to date with the original project. We may submit features from this branch as a PR to the original project.
 
@@ -25,7 +25,7 @@ Coming Soon!
 
 **Supported Platforms**
 
-If you download from the [Releases](https://github.com/ModRealms-Network/HeliosLauncher/releases) tab, select the installer for your system.
+If you download from the [Releases](https://github.com/Juloass/InkubateLauncher/releases) tab, select the installer for your system.
 
 | Platform | File |
 | -------- | ---- |
@@ -52,9 +52,8 @@ If you want to export the console output, simply right click anywhere on the con
 
 ## Help
 
-For help regarding this version (ModRealms' fork), contact the staff on the discord server below:
-
-[![discord](https://discordapp.com/api/guilds/210739122577473536/embed.png?style=banner2)][discord]
+For help regarding this version (Inkubate + ModRealms' fork), contact the staff on the discord server below:
+[![discord](https://discordapp.com/api/guilds/896566725099802624/widget.png?style=banner2)][discord]
 
 
 ## Original Authors
