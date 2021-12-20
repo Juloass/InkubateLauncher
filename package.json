@@ -1,13 +1,13 @@
 {
-  "name": "modrealmslauncher",
+  "name": "inkubatelauncher",
   "version": "2.5.1-release",
-  "productName": "ModRealms Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "ModRealms",
+  "productName": "Inkubate Launcher",
+  "description": "Inkubate Minecraft Launcher",
+  "author": "Juloass",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/ModRealms-Network/HeliosLauncher",
+  "homepage": "https://github.com/Juloass/InkubateLauncher",
   "bugs": {
-    "url": "https://github.com/ModRealms-Network/HeliosLauncher/issues"
+    "url": "https://github.com/Juloass/InkubateLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -49,6 +49,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ModRealms-Network/ModRealmsLauncher.git"
+    "url": "git+https://github.com/Juloass/InkubateLauncher.git"
   }
 }
